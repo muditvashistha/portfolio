@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Kashti Adventures",
+      "description": "Interned to Handle and Design the Front-End layout of the Website",
+      "technologies": ["Angular","HTML","CSS","JS","Bootstrap"],
+      "image": "images/projects/ecommerce.jpg",
+      "github_link": "https://github.com/johndoe/ecommerce",
+      "live_link": "https://kashtiadventures.com/",
+      "featured": true,
+      "category": "Web Application"
+    },
+    {
+      "id": 2,
+      "title": "BinaryHug",
+      "description": "A mood-driven recommendation system that uses Natural Language Processing (NLP) to understand a user's emotional state and then suggests a book, a movie, and a song tailored to that mood.",
+      "technologies": ["Streamlit", "Flask", "MongoDB", "CSS", "BeautifulSoup","Pandas"],
+      "image": "images/projects/taskapp.jpg",
+      "github_link": "https://github.com/muditvashistha/BinaryHug",
+      "live_link": "https://mytaskapp.com",
+      "featured": true,
+      "category": "Web Application"
+    },
+    {
+      "id": 3,
+      "title": "Unknown-Identity-Alert",
+      "description": "A system that verifies face encodings to authorize a person",
+      "technologies": ["Python"],
+      "image": "images/projects/weather.jpg",
+      "github_link": "https://github.com/muditvashistha/Unknown-Identity-Alert",
+      "live_link": "https://myweather.com",
+      "featured": false,
+      "category": "Frontend"
+    }
+  ],
+  "social_links": {
+    "github": "https://github.com/muditvashistha",
+    "linkedin": "https://www.linkedin.com/in/mudit-vashistha-683b7b266/"
+  }
+}

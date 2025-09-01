@@ -1,0 +1,162 @@
+body{
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.intro{
+    margin-top: 100px;
+    background-color: black !important;
+    color: white;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brick{
+    background-image: url(/static/images/bricks-divide.jpg);
+    background-repeat: repeat-x;
+    height: 130px;
+    width: 100%;
+}
+
+.stairs{
+    background-image: url(/static/images/stairs-removed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 410px;
+    width: 330px;
+    transform: rotateY(3.142rad);
+}
+.stairs2{
+    background-image: url(/static/images/stairs-removed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 410px;
+    width: 330px;
+    
+}
+
+.pipes{
+    background-image: url(/static/images/pipes-removed.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 265px;
+    width: 267px;
+    
+}
+
+.pipes:hover{
+    cursor: pointer;
+}
+
+.my-3{
+    margin-top: 10rem !important;
+}
+.my-3-pipes{
+    margin-top: 7rem !important;
+}
+
+.custom-popover{
+    background-color: white;
+    border-radius: 0%;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 4px 4px #FFC107;
+}
+
+.column-gap-3{
+    column-gap: 5rem !important;
+}
+
+
+.gap-3{
+    gap: 6rem !important;
+}
+
+
+.chest{
+    background-image: url(/static/images/blue\ chest-removed.png);
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.carousel {
+    height: 300px;
+    
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.arrow{
+    height: 72px;
+    width: 72px;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+
+.chest:hover{
+    background-image: url(/static/images/blue\ chest\ open-removed.png);
+}
+
+
+@media only screen and (min-width: 600px) {
+  .gap-3{
+    gap: 0rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .brick {
+    height: 50px;
+  }
+  .stairs{
+    display: none;
+  }
+    .stairs2{
+    display: none;
+  }
+  .my-3{
+    margin-top: 2rem !important;
+  }
+}
